@@ -1,0 +1,153 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    border: 1px solid white;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    background-color: #333;
+    padding: 5px 10px;
+}
+
+.navbar a {
+    font-family: 'Wix Madefor Text';
+    text-decoration: none;
+    display: flex inline-block;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    transition-duration: 500ms;
+    background-color: gray;
+    color: white;
+}
+
+.navbar .logo {
+    position: absolute;
+    left: 35px;
+    top: 15px;
+    font-family: 'Wix Madefor Text';
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+    .navbar .menu {
+        margin: 20px;
+        font-family: sans-serif;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .menu.show {
+        display: flex;
+        }
+
+    .navbar a {
+        text-align: left;
+        padding: 10px 20px;
+        width: 100%;
+        }
+
+.container .backgroundImg1 {
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .top-left {
+    font-family: 'Wix Madefor Text';
+    font-size: 25px;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+
+.container .read-more-about-me {
+    text-decoration: none;
+    padding: 5px
+}
+
+.container .top-left .headerHome {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+
+.secondImg {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.containerAbout .secondImg {
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.containerAbout .top-right {
+    font-family: 'Wix Madefor Text';
+    font-size: 25px;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 1100px;
+    left: 55px;
+}
+
+.containerAbout .read-more-about-me {
+    text-decoration: none;
+    padding: 5px
+}
+
+.containerAbout .headerAbout {
+    position: absolute;
+    top: 1050px;
+    left: 55px;
+    z-index: 2;
+    color:white;
+    font-family: 'Wix Madefor Text';
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.read-more-about-me {
+    padding: 10px;
+    font-family: 'Wix Madefor Text';
+    font-weight: 500;
+    font-size: 25px;
+    color: lightgreen;
+    border: 3px solid lightgreen;
+    border-radius: 25%;
+    position: absolute;
+    z-index: 3;
+    top: 1250px;
+    left: 55px;
+}
+
+.read-more-about-me:hover {
+    padding: 10px;
+    color: green;
+    background-color: white;
+    font-size: 25px;
+    border: 1px solid green;
+    transition-duration: 200ms;
+}
+

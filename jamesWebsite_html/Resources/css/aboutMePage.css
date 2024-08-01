@@ -1,0 +1,101 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    border: 1px solid white;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    background-color: #333;
+    padding: 5px 10px;
+}
+
+.navbar a {
+    font-family: 'Wix Madefor Text';
+    text-decoration: none;
+    display: flex inline-block;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    transition-duration: 500ms;
+    background-color: gray;
+    color: white;
+}
+
+.navbar .logo {
+    position: absolute;
+    left: 35px;
+    top: 15px;
+    font-family: 'Wix Madefor Text';
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+    .navbar .menu {
+        margin: 20px;
+        font-family: sans-serif;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .menu.show {
+        display: flex;
+        }
+
+    .navbar a {
+        text-align: left;
+        padding: 10px 20px;
+        width: 100%;
+        }
+
+.backgroundImg2 {
+    width: 100%;
+    margin: 0 auto;
+    filter: brightness(60%);
+    display: block;
+}
+
+.career .secondImgAbout {
+    border-top: 1px solid white;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.career .headerCareer {
+    color: #D2FF00;
+    font-family: 'Wix Madefor Text';
+    font-weight: 600;
+    font-size: 35px;
+    z-index: 2;
+    position: absolute;
+    top: -55px;
+    left: -1px;
+}
+
+.career .paragraph2022 {
+    color: white;
+    font-family: 'Wix Madefor Text';
+    font-size: 18px;
+    font-weight: 300;
+    z-index: 2;
+    position: absolute;
+    top: 790px;
+    left: 55px;
+}
